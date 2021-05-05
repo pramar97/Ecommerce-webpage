@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing : border-box;
+    color: rgb(78, 78, 78);
+}
+
+.container{
+    max-width: 900px ;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-1{
+    flex-basis: 50%;
+    min-width:310px;
+ 
+
+}
+.col-1 img{
+    max-width: 100%;
+    padding:50px 0;
+
+}
+.btn1{
+   
+    border: 1px solid black;
+    background: black;
+    color:#fff; 
+    padding:8px 30px;
+    
+    transition: background 0.5s;
+ }
+ .btn1:hover{
+     background: darkgray;
+ }
+ .btn2{
+     
+     border: 1px solid black;
+     background:white;
+     color:black; 
+     padding:8px 30px;
+   
+     transition: background 0.5s;
+  }
+  .btn2:hover{
+      background: darkgray;
+  }
+  .single-product{
+    margin-top:20px;
+    margin-bottom:40px;
+}
+.single-product .col-1 img{
+    padding :5px;
+
+}
+.single-product .col-1{
+    padding:35px;
+}
+.rating{
+ 
+    padding:10px 0px ;
+}
+.rating .fas{
+    padding:10px 0px;
+
+    color:#68f0f0;
+ }
+ .small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis:18%;
+    cursor:pointer;
+}
+.Submit{
+    padding: 10px 0px 25px 0px;
+}
+
+
+.foot{
+    position: relative;
+    left: 35px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 11.5px;
+    padding: 5px ;
+    
+    line-height:1.3;
+    
+   color: darkgray;
+}
+.foot-d{
+    padding: 5px ;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 11.5px;
+    color: gray;
+}
+.price{
+    padding: 20px 0px 20px 0px;
+
+}
+.fa-clock-o{
+    padding-left: 10px;
+    color: gray;
+}
+.btn{
+    padding: 8px;
+}
+.p1{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    text-decoration-style: none;
+    color: rgb(78, 78, 78);
+    line-height:1.5;
+    padding-bottom: 5px;
+}
+h1{
+    color: #080808;
+}
+h4{
+        color: #1f1e1e;
+}
+.price{
+    font-size: 25px;
+    color: #080808;
+}
+.fa-sync,.fa-truck,.fa-money-check-alt{
+    padding: 8px;
+}
+.col-6{
+    padding: 20px 35px 20px 0;
+}
+.fa-chevron-circle-left{
+    cursor: pointer;
+    position: absolute;
+    top: 36.8%;
+    left: 22.8%;
+    color:#fff;
+     
+}
+.fa-chevron-circle-right{
+    cursor: pointer;
+    position: absolute;
+    top: 36.8%;
+    right: 52.5%;
+    color:#fff;
+}
+
+@media(max-width: 1326px){
+    .fa-chevron-circle-right{
+        opacity: 0;
+    }
+}
+@media(max-width: 1326px){
+    .fa-chevron-circle-left{
+     opacity: 0;
+    }
+}
